@@ -1,0 +1,105 @@
+body{
+		background: rgba(0,0,0,0.1);
+}
+
+.search{
+	padding: 40px 0px;
+}
+
+.login{
+	padding: 40px 0px;
+}
+
+
+.header{
+	
+	background: #B9BABA;//#9B9C9D;
+
+}
+
+.header .head-overplay{
+	
+	padding:0px;
+	background:  #7c7d7e; //#4e4e4e;
+}
+
+.header #head{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.logo{
+	padding-left: 20px;
+}
+
+.corps{
+
+}
+
+.nav-container{
+	background: #e1e1e2;
+}
+
+.navbar{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	background: white;
+	color: black;
+	font-family: arial;
+	font-weight: bold;
+}
+
+ul.menu li:not(:last-child) {
+	display: inline-block;
+	border-right: 1px solid #ccc;
+	width: 255px;
+}
+ul.menu li a{
+	text-align: center;
+}
+
+ul.menu li:last-child a{
+	text-align: right;
+	padding-left: 10px;
+}
+ul.menu li:last-child{
+	border-right: 0px;
+}
+.nav{
+
+}
+.google-container{
+	height: 600px;
+
+	padding: 20px;
+}
+
+.contain{
+	background: red;
+}
+
+footer{
+	background: white;
+	padding: 12px;
+}
+
+.footer-menu{
+	float: right;
+}
+
+/** 
+*	Responsive Design fonctonalities
+*/
+
+.mobile-header{
+	background: white;
+}
+.menu-collapse{
+	float: left;
+
+}
+
+.logo-mobile{
+	float: right;
+}
