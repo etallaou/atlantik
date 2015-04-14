@@ -50,42 +50,57 @@ body{
 	font-weight: bold;
 }
 
-ul.menu li:not(:last-child) {
-	display: inline-block;
-	border-right: 1px solid #ccc;
-	width: 255px;
-}
-ul.menu li a{
-	text-align: center;
+@media (min-width: 48em){ 
+  ul.menu{
+    display: block;
+    width: 100%;
+  }
+
+  ul.menu li:not(:last-child) {
+   display: inline-block;
+   border-right: 1px solid #ccc;
+   width: 23%;
+ }
+ ul.menu li a{
+   text-align: center;
+ }
+
+ ul.menu li:last-child a{
+   text-align: right;
+   padding-left: 10px;
+ }
+ ul.menu li:last-child{
+   border-right: 0px;
+ }
 }
 
-ul.menu li:last-child a{
-	text-align: right;
-	padding-left: 10px;
+
+
+.align-right{
+  display: inline-block;
+  margin: auto;
 }
-ul.menu li:last-child{
-	border-right: 0px;
-}
+
 .nav{
 
 }
 .google-container{
-	height: 600px;
+ height: 600px;
 
-	padding: 20px;
+ padding: 20px;
 }
 
 .contain{
-	background: red;
+ background: red;
 }
 
 footer{
-	background: white;
-	padding: 12px;
+ background: white;
+ padding: 12px;
 }
 
 .footer-menu{
-	float: right;
+ float: right;
 }
 
 /** 
