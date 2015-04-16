@@ -118,3 +118,13 @@ footer{
 .logo-mobile{
 	float: right;
 }
+
+@media (max-width:48em){ 
+.navbar.navbar.navbar-default {
+	background: #7c7d7e;;
+}
+
+.navbar-brand{
+	color: white;
+}
+}
